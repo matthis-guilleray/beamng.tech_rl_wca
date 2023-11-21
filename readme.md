@@ -26,7 +26,10 @@ conda env create -f environment.yml
 * **Matthis Guilleray**
 
 ## Blibliography
-### Youtubes video
+### Papers
+* [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+### Youtube
+* [Yosh](https://www.youtube.com/@yoshtm)'s videos
 ### Documentation
 * [BeamNG.Tech](https://documentation.beamng.com/beamng_tech/)
 * [BeamNGpy](https://beamngpy.readthedocs.io/en/latest/index.html)
