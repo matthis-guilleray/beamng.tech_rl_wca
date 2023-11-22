@@ -20,6 +20,7 @@ To install all the library, you can use the .yml file and install the library fr
 ```
 conda env create -f environment.yml
 ```
+You also need to set the environment variable "BEAMNG_TECH_HOME" to the folder where beamng.tech is located, for example : C:\Users\someone\Desktop\BeamNG.tech.v0.30.6.0
 
 
 ## Authors
