@@ -22,14 +22,25 @@ conda env create -f environment.yml
 ```
 You also need to set the environment variable "BEAMNG_TECH_HOME" to the folder where beamng.tech is located, for example : C:\Users\someone\Desktop\BeamNG.tech.v0.30.6.0
 
+## Structure of the Git
+### Object
+#### Vehicule
+This class will be used to create the same vehicule with specified sensors (Camera, electrics, damage sensors) with a bunch of method. Such as Get sensors, set ai mod or reset.
+#### OU
+This class will be used to create noise for the DDPG implementation, it is based on the wikipedia [article](https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process) about Ornstein Ulhenbeck process. The outputed noise is based on the previous sample
 
-## Authors
-* **Matthis Guilleray**
+## To be done 
+* Explain the math behind the wcarace class of beamng.gym
+* The DDPG algorithm
+* Link between beamng.gym and ddpg algo
+* Test of the training
 
 ## Blibliography
 ### Papers
 * [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
-### Youtube
+### Article
+* [Ornstein Ulhenbeck process](https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process)
+### Video
 * [Yosh](https://www.youtube.com/@yoshtm)'s videos
 ### Documentation
 * [BeamNG.Tech](https://documentation.beamng.com/beamng_tech/)
